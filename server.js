@@ -45,6 +45,7 @@ var articles = {
                         This is my first content for article Three. This training is a bit complicated and fast. What do you say guys??...
                         </p>`}
 };
+
 function createTemplate (data) {
     var title = data.title;
     var date = data.date;
@@ -56,6 +57,7 @@ function createTemplate (data) {
     <title>
         ${title}
         </title>
+        <meta name ="viewport" content= "width-device-width, initial-scale-1" />
        <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
