@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content = {
+var articleOne = {
     title: 'Article One | Jhansi Rani',
     heading: 'Article One',
     date: 'August 19 2017',
