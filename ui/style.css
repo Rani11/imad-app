@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    margin-top: 60px;
+    margin-top: 15px;
 }
 
 .center {
@@ -8,7 +8,7 @@ body {
 }
 
 .text-big {
-    font-size: 300%;
+    font-size: 150%;
 }
 
 .bold {
@@ -16,11 +16,11 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height: 100px;
 }
 
               .container {
-                    max-width: 800px;
+                    max-width: 400px;
                     margin: 0 auto;
                     color: grey;
                     font-family: ahorani;
